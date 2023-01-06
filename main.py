@@ -2,7 +2,7 @@ import phonenumbers
 
 from phonenumbers import carrier, geocoder, timezone
 
-mobileNo=input("Enter mobile number with courntry code:") 
+mobileNo=input("+639182114999:") 
 mobileNo=phonenumbers.parse(mobileNo)
 
 print("Is number valid:",phonenumbers.is_valid_number(mobileNo))
